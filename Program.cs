@@ -43,6 +43,10 @@ namespace Exe5_101_Kelompok1
             if (front == null);
             rear = null;
         }
+        public void display()
+        {
+
+        }
     }
 }
 
