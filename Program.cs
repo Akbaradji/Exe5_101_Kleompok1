@@ -25,7 +25,18 @@ namespace Exe5_101_Kelompok1
             newnode.next = null;
             if (front == null)
             {
-
+                front = newnode;
+                rear = newnode;
+                return;
+            }
+            rear.next = newnode;
+            rear = newnode;
+        }
+        public void delete()
+        {
+            if (front == null)
+            {
+               
             }
         }
     }
