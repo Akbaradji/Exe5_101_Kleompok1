@@ -18,7 +18,15 @@ namespace Exe5_101_Kelompok1
         public void insert()
         {
             string nm;
-            Node namecode = new Node();
+            Node newnode = new Node();
+            Console.WriteLine("Masukkan Element");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
+            if (front == null)
+            {
+
+            }
         }
     }
 }
