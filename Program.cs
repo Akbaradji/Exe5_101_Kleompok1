@@ -70,6 +70,7 @@ namespace Exe5_101_Kelompok1
                     Console.WriteLine("2. Delete");
                     Console.WriteLine("3. Display");
                     Console.WriteLine("4. Exit");
+                    Console.WriteLine("5. Silahkan pilih 1 - 4");
 
                 }
             }
