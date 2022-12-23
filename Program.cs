@@ -50,6 +50,15 @@ namespace Exe5_101_Kelompok1
                 Console.WriteLine("Queue Kosong");
                 return;
             }
+            Node Current;
+            for (Current = front; Current != null; Current = Current.next);
+            Console.WriteLine(Current.name);
+        }
+    }
+    class program
+    {
+        static void Main(string[] args)
+        {
             
         }
     }
