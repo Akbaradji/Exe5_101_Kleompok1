@@ -46,7 +46,11 @@ namespace Exe5_101_Kelompok1
         public void display()
         {
             if (front == null);
-
+            {
+                Console.WriteLine("Queue Kosong");
+                return;
+            }
+            
         }
     }
 }
