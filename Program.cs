@@ -36,8 +36,12 @@ namespace Exe5_101_Kelompok1
         {
             if (front == null)
             {
-               
+                Console.WriteLine("Queue Missing");
+                return;
             }
+            front = front.next;
+            if (front == null);
+            rear = null;
         }
     }
 }
