@@ -59,7 +59,20 @@ namespace Exe5_101_Kelompok1
     {
         static void Main(string[] args)
         {
-            
+            queue q = new queue();
+            char ch;
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("=====Menu=====");
+                    Console.WriteLine("1. Enter");
+                    Console.WriteLine("2. Delete");
+                    Console.WriteLine("3. Display");
+                    Console.WriteLine("4. Exit");
+
+                }
+            }
         }
     }
 }
