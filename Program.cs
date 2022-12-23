@@ -71,7 +71,33 @@ namespace Exe5_101_Kelompok1
                     Console.WriteLine("3. Display");
                     Console.WriteLine("4. Exit");
                     Console.WriteLine("5. Silahkan pilih 1 - 4");
-
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    switch (ch)
+                    {
+                        case '1':
+                            {
+                                q.insert();
+                            }
+                            break;
+                        case '2':
+                            {
+                                q.delete();
+                            }
+                            break;
+                        case '3':
+                            {
+                                q.display();
+                            }
+                            break;
+                        case '4':
+                                return;
+                                default:
+                            {
+                                Console.WriteLine("Opsi Tidak Tersedia");
+                            }
+                            break;
+                    }
                 }
             }
         }
